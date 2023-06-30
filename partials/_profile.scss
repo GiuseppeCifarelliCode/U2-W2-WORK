@@ -1,0 +1,30 @@
+.main-profile {
+    font-size: 0.8rem;
+
+    input {
+    &::placeholder {
+        color: white;
+    }
+}
+
+    .form-check-input {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    @media screen and (min-width: 768px) {
+        input {
+            width: 50% !important;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        width: 50% !important;
+    }
+}
+
+.buttons-group {
+    @media screen and (min-width: 992px) {
+        width: 50% !important;
+    }
+}

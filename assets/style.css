@@ -1,0 +1,48 @@
+.main-index img:hover {
+  transform: scale(1.2);
+}
+
+.index-footer {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.index-footer button {
+  font-size: small;
+}
+
+.main-profile {
+  font-size: 0.8rem;
+}
+.main-profile input::-moz-placeholder {
+  color: white;
+}
+.main-profile input::placeholder {
+  color: white;
+}
+.main-profile .form-check-input {
+  width: 30px !important;
+  height: 30px !important;
+}
+@media screen and (min-width: 768px) {
+  .main-profile input {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main-profile {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .buttons-group {
+    width: 50% !important;
+  }
+}
+
+.settings-main p {
+  margin: 0;
+}
+.settings-main a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

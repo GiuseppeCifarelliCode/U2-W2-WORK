@@ -1,8 +1,14 @@
 .settings-main {
+    font-size: 0.8rem;
+
     p {
         margin: 0;
     }
     a {
         text-decoration: none;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 1rem;
     }
 }

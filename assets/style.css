@@ -40,9 +40,17 @@
   }
 }
 
+.settings-main {
+  font-size: 0.8rem;
+}
 .settings-main p {
   margin: 0;
 }
 .settings-main a {
   text-decoration: none;
+}
+@media screen and (min-width: 992px) {
+  .settings-main {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
